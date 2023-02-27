@@ -1,0 +1,18 @@
+#container {
+  border: 1px solid rgb(218, 14, 184);
+  width: 600px;
+  margin: auto;
+}
+
+ul {
+  text-align: center;
+  list-style: none;
+}
+
+li {
+  padding: 5px;
+}
+
+div {
+  padding: 5px;
+}
