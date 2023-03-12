@@ -1,0 +1,22 @@
+#container {
+  border: 3px solid rgb(218, 14, 184);
+  width: 600px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+  list-style: none;
+}
+
+li {
+  padding: 5px;
+}
+
+div {
+  padding: 5px;
+}
