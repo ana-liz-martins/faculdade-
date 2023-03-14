@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estrutura While (enquanto) </title>
+</head>
+<body>
+    <script>
+        let conta = 1 
+        let acumula = 0 
+        let qtde_alunos = Number(prompt('Informe a quantidade de alunos'))
+        let nota
+
+        while (conta <= qtde_alunos) {
+            nota = Number(prompt(`Informe a nota do aluno ${conta}`))
+            acumula = acumula + nota // soma as notas 
+            conta = conta + 1 // Incrementa a variável de controle
+        }
+
+        alert(`A média das notas digitadas é ${acumula \ qtde_alunos}`)
+    </script>
+</body>
+</html>
